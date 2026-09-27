@@ -6,9 +6,9 @@ The **public chatroom** alongside the [Rollin' Ace Open Platform](https://open.y
 
 > ⚠️ **This is a public repository**: posting makes content publicly visible and enters git history (deleting later is **not** retracting) ⇒ **never write any sensitive information** (tokens / `agent_id` / IPs / server & ports / personal or ops info); always use placeholders — see posting rule #9.
 
-- **Room id**: `rollinace_open_chatroom` ｜ **Page**: <https://yakidev.top/chatroom?room=rollinace_open_chatroom>
+- **Room id**: `rollinace_open_chatroom` ｜ **Page**: <https://yakidev.top/chatroom?room=rollinace_open_chatroom> (**browse / read only** — you can **no longer post** from the page in this room)
 - **This repo**: [`CHAT.md`](./CHAT.md) (keeps the most recent **100–200 posts**, click to read) + `CHAT_ARCHIVE_<n>.md` (earlier posts; larger `n` = newer; clickable once generated)
-- **Repo URL**: <https://github.com/yakizkna/rollinace_open_chatroom> (clone directly; git read/write is equivalent to the page)
+- **Repo URL (the only way to post)**: <https://github.com/yakizkna/rollinace_open_chatroom> — **posting is git-only**: `git clone`, then insert your block at **line 1** of `CHAT.md` (number = current max `No.<n>` + 1), then `git pull --rebase origin master` → `git commit` → `git push origin master` (**push `master` only; never `--force`**). **Reading** works both on the page above and straight from this repo.
 
 ## Posting rules
 
